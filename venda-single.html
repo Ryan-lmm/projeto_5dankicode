@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>Projeto 05</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="description" content="RM, veiculos, especiais" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6092eefdf0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-desktop">
+            <div class="logo">
+                <img src="/imagens/logo.jpg" />
+            </div><!--logo-->
+            <nav class="items-menu-desktop">
+                <a href="index.html">Home</a>
+                <a href="venda.html">Venda</a>
+                <a href="#">Galeria</a>
+                <a href="#">Eventos</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav><!--nav menu desktop-->
+        </div><!--menu desktop-->
+
+        <div class="menu-mobile">
+            <div class="logo">
+                <img src="/imagens/logo.jpg" />
+            </div><!--logo menu mobile-->
+            <i class="fa-solid fa-bars"></i>
+            <nav class="items-menu-mobile">
+                <a href="index.html">Home</a>
+                <a href="venda.html">Venda</a>
+                <a href="#">Galeria</a>
+                <a href="#">Eventos</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav><!--nav menu mobile-->
+        </div><!--menu mobile-->
+
+        <div class="line">
+            <h2>VEICULO TAL ANO TAL</h2>
+            <div class="ln1"></div>
+
+        </div><!--line destaque-->
+        <section class="info-bread">
+            <div class="info-bread-container">
+                <a href="">HOME</a><span>></span>
+                <a href="">VENDA</a><span>></span>
+                <a href="">VEICULO TAL</a>
+                <div class="clear"></div>
+            </div><!--info-bread-container-->
+        </section><!--info bread-->
+        <section class="car-single">
+            <div class="container-car-single">
+                <div class="img-car">
+
+                </div><!--"imagem do carro"-->
+                <div  class="description-car">
+                    <h2>R$50.000</h2>
+                    <p>lorem ipsum silor domor amet
+                        lorem ipsum silor domor amet
+                        lorem ipsum silor domor amet
+                    </p>
+                    <a class="btn1" href="#">Entre em contato</a>
+                </div><!--descrição do carro-->
+            </div><!--container-car-single-->
+           <div class="nav-galeria-parent">
+            <div class="arrow-nav">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div><!--nav setas desktop direita e esquerda-->
+            <div class="nav-galeria">
+                <div class="nav-galeria-wraper">
+                    <div class="mini-img"></div>
+                    <div class="mini-img"></div>
+                    <div class="mini-img"></div>
+                    <div class="mini-img"></div>
+                    <div class="mini-img"></div>
+                    <div class="mini-img"></div>
+                </div><!--nav galeria wraper-->
+                <div class="clear"></div>
+            </div><!--nav galeria geral-->
+        </section><!--car-single-->
+        <section class="contato">
+            <div class="line">
+                <h2>CONTATO</h2>
+                <div class="ln1"></div>
+            </div><!--line-->
+            <div class="container-contato">
+                <form>
+                    <div class="input-wraper w100">
+                        <p>Nome</p>
+                        <input type="text" name="nome" placeholder="Nome*" required/>
+                    </div>
+                    <div class="input-wraper w50">
+                        <p>Email</p>
+                        <input type="email" name="email" placeholder="Email*" required/>
+                    </div>
+                    <div class="input-wraper w50">
+                        <p>Telefone</p>
+                        <input type="number" name="telefone" placeholder="Telefone*" required/>
+                    </div>
+                    <div class="input-wraper w100">
+                        <p>Mensagem</p>
+                        <textarea placeholder="Mensagem*"></textarea>
+                    </div>
+                    <div class="btn-contato-container">
+                        <input type="submit" name="enviar" value="Enviar"/>
+                    </div>
+                    <div class="clear"></div>
+                </form><!--formulario de contato car-single-->
+            </div><!--container-contato-->
+        </section><!--sessao contato-->
+        <section class="cars-destaques">
+            <div class="line">
+                <h2>CARROS EM DESTAQUES</h2>
+                <div class="ln1"></div>
+            </div>
+            <div class="cars-container">
+                <div class="carro">
+                    <img
+                        src="data:image/jpeg;base64,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" />
+                    <h2>Fusca 4cc 1973</h2>
+                    <p>1600 4v gasolina conversivel</p>
+                    <a class="btn1" href="venda-single.html">Mais Detalhes</a>
+                </div>
+                <div class="carro">
+                    <img
+                        src="data:image/jpeg;base64,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" />
+                    <h2>Fusca 4cc 1973</h2>
+                    <p>1600 4v gasolina conversivel</p>
+                    <a class="btn1" href="">Mais Detalhes</a>
+                </div>
+                <div class="carro">
+                    <img
+                        src="data:image/jpeg;base64,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" />
+                    <h2>Fusca 4cc 1973</h2>
+                    <p>1600 4v gasolina conversivel</p>
+                    <a class="btn1" href="">Mais Detalhes</a>
+                </div>
+                
+            </div><!--container cars venda single-->
+        </section><!--cars destaques-->
+</body>
+
+</html>
